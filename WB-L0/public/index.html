@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Корзина</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header class="page-header">
+        <button class="header-catalog-button" type="button">
+            <img class="header-catalog-icon" src="/src/assets/Каталог.svg" alt="">
+        </button>
+        <a class="header-logo" href="#">Товары<br>и точка</a>
+        <form class="header-search-form" action="#" method="get">
+            <div class="container-search">
+                <input class="header-search-input" name="search" placeholder="Я ищу..." type="search">
+                <button class="header-search-button" type="submit">
+                    <span class="visually-hidden">Поиск</span>
+                </button>
+            </div>
+        </form>
+        <nav class="header-navigation">
+            <a class="header-link" href="#">
+                <img class="header-user-icon" src="/src/assets/Exclude.svg" alt="">
+                <span class="header-user-description">Профиль</span>
+            </a>
+            <a class="header-link" href="#">
+                <img class="header-shopping_cart-icon" src="/src/assets/Cart.svg" alt="">
+                <span class="header-shopping_cart-description">Корзина</span>
+                <span class="icon-button-counter">3</span>
+            </a>
+        </nav>
+    </header>
+    <main class="main-container main-inner">
+        <div class="page-container1">
+            <h1 class="visually-hidden">Страница корзины</h1>
+            <section class="shopping_cart">
+                <h2 class="shopping_cart-title">Корзина</h2>
+                <form class="select-all" action="#" method="get">
+                    <input class="checkbox" type="checkbox" id="all" checked>
+                    <label for="all">Выбрать все</label>
+                </form>
+                <button class="hide-button" type="button">
+                    <img class="hide-button-icon" src="/src/assets/Hide.svg">
+                    <span class="visually-hidden">Скрыть</span>
+                </button>
+                <fieldset class="shopping_cart-group1">
+                    <legend class="visually-hidden">Товары в корзине</legend>
+                    <form class="shopping_cart-form" action="#" method="get">
+                        <ul class="shopping_cart-list">
+                            <li class="shopping_cart-item">
+                                
+                                <input class="" type="checkbox" id="all" checked>
+                    
+                                <img class="shopping_cart-item-img" src="/src/assets/Shirt.png" alt="Фото футболки"
+                                    width="72" height="96">
+                                <h3 class="shopping_cart-subtitle">Футболка UZcotton мужская</h3>
+                                <span class="shopping_cart-item-char">Цвет: белый Размер: 56</span>
+                                <span class="shopping_cart-item-org">Коледино WB OOO Вайлдберриз</span>
+                                <button class="shopping_cart-item-more_info" type="button">
+                                    <span class="visually-hidden">Посмотреть дополнительную информацию</span>
+                                </button>
+                                <button class="count_-_button" type="button">
+                                    <span class="count_-">-</span>
+                                </button>
+                                <input class="count" type="number" name="count-current">
+                                <button class="count_+_button" type="button">
+                                    <span class="count_+">+</span>
+                                </button>
+                                <strong class="shopping_cart-item-count">Осталось 2 шт.</strong>
+                                <button class="shopping_cart-item-favotite" type="button">
+                                    <span class="visually-hidden">В избранное</span>
+                                </button>
+                                <button class="shopping_cart-item-delete" type="button">
+                                    <span class="visually-hidden">Удалить</span>
+                                </button>
+                                <b class="shopping_cart-item-price">522 </b>
+                                <b class="shopping_cart-item-currency">сом</b>
+                                <del class="shopping_cart-item-del">1051 сом</del>
+                            </li>
+                            <li class="shopping_cart-item">
+                                <label class="control">
+                                    <input class="visually-hidden control-input" type="checkbox"
+                                        name="apple-iphone-xr-mobisafe" checked>
+                                    <span class="control-mark"></span>
+                                    <span class="control-label"></span>
+                                </label>
+                                <img class="shopping_cart-item-img" src="/src/assets/Case.png" alt="Фото чехла"
+                                    width="72" height="96">
+                                <h3 class="shopping_cart-subtitle">Силиконовый чехол картхолдер (отверстия) для карт,
+                                    прозрачный кейс бампер на Apple iPhone XR, MobiSafe</h3>
+                                <span class="shopping_cart-item-char">Цвет: прозрачный</span>
+                                <span class="shopping_cart-item-org">Коледино WB OOO Мегапрофстиль</span>
+                                <button class="shopping_cart-item-more_info" type="button">
+                                    <span class="visually-hidden">Посмотреть дополнительную информацию</span>
+                                </button>
+                                <button class="count_-_button" type="button">
+                                    <span class="count_-">-</span>
+                                </button>
+                                <input class="count" type="number" name="count-current">
+                                <button class="count_+_button" type="button">
+                                    <span class="count_+">+</span>
+                                </button>
+                                <strong class="shopping_cart-item-count"></strong>
+                                <button class="shopping_cart-item-favotite" type="button">
+                                    <span class="visually-hidden">В избранное</span>
+                                </button>
+                                <button class="shopping_cart-item-delete" type="button">
+                                    <span class="visually-hidden">Удалить</span>
+                                </button>
+                                <b class="shopping_cart-item-price">2 100 047 </b>
+                                <b class="shopping_cart-item-currency">сом</b>
+                                <del class="shopping_cart-item-del">2 300 047 сом</del>
+                            </li>
+                            <li class="shopping_cart-item">
+                                <label class="control">
+                                    <input class="visually-hidden control-input" type="checkbox" name="faber-castell"
+                                        checked>
+                                    <span class="control-mark"></span>
+                                    <span class="control-label"></span>
+                                </label>
+                                <img class="shopping_cart-item-img" src="/src/assets/Pencil.png" alt="Фото карандашей">
+                                <h3 class="shopping_cart-subtitle">Карандаши цветные Faber-Castell "Замок", набор 24
+                                    цвета,
+                                    заточенные, шестигранные, Faber-Castell </h3>
+                                <span class="shopping_cart-item-char"></span>
+                                <span class="shopping_cart-item-org">Коледино WB OOO Вайлдберриз</span>
+                                <button class="shopping_cart-item-more_info" type="button">
+                                    <span class="visually-hidden">Посмотреть дополнительную информацию</span>
+                                </button>
+                                <button class="count_-_button" type="button">
+                                    <span class="count_-">-</span>
+                                </button>
+                                <input class="count" type="number" name="count-current">
+                                <button class="count_+_button" type="button">
+                                    <span class="count_+">+</span>
+                                </button>
+                                <strong class="shopping_cart-item-count">Осталось 2 шт.</strong>
+                                <button class="shopping_cart-item-favotite" type="button">
+                                    <span class="visually-hidden">В избранное</span>
+                                </button>
+                                <button class="shopping_cart-item-delete" type="button">
+                                    <span class="visually-hidden">Удалить</span>
+                                </button>
+                                <b class="shopping_cart-item-price">494 </b>
+                                <b class="shopping_cart-item-currency">сом</b>
+                                <del class="shopping_cart-item-del">950 сом</del>
+                            </li>
+                        </ul>
+                    </form>
+                </fieldset>
+                <span class="shopping_cart-group-name">Отсутствуют · 3 товара</span>
+                <button class="hide-button" type="button">
+                    <span class="visually-hidden">Скрыть</span>
+                </button>
+                <fieldset class="shopping_cart-group2">
+                    <legend class="visually-hidden">Отсутствующие товары</legend>
+                    <form class="shopping_cart-form" action="#" method="get">
+                        <ul class="shopping_cart-list">
+                            <li class="shopping_cart-item-del">
+                                <img class="shopping_cart-item-img-del" src="/src/assets/Shirt-gray.png"
+                                    alt="Фото футболки" width="72" height="96">
+                                <h3 class="shopping_cart-subtitle-del">Футболка UZcotton мужская</h3>
+                                <span class="shopping_cart-item-char-del">Цвет: белый Размер: 56</span>
+                                <button class="shopping_cart-item-favotite" type="button">
+                                    <span class="visually-hidden">В избранное</span>
+                                </button>
+                                <button class="shopping_cart-item-delete" type="button">
+                                    <span class="visually-hidden">Удалить</span>
+                                </button>
+                            </li>
+                            <li class="shopping_cart-item-del">
+                                <img class="shopping_cart-item-img-del" src="/src/assets/Case-gray.png" alt="Фото чехла"
+                                    width="72" height="96">
+                                <h3 class="shopping_cart-subtitle-del">Силиконовый чехол картхолдер (отверстия) для
+                                    карт,
+                                    прозрачный кейс бампер на Apple iPhone XR, MobiSafe</h3>
+                                <span class="shopping_cart-item-char-del">Цвет: прозрачный</span>
+                                <button class="shopping_cart-item-favotite" type="button">
+                                    <span class="visually-hidden">В избранное</span>
+                                </button>
+                                <button class="shopping_cart-item-delete" type="button">
+                                    <span class="visually-hidden">Удалить</span>
+                                </button>
+                            </li>
+                            <li class="shopping_cart-item-del">
+                                <img class="shopping_cart-item-img-del" src="/src/assets/Pencil-gray.png"
+                                    alt="Фото карандашей">
+                                <h3 class="shopping_cart-subtitle-del">Карандаши цветные Faber-Castell "Замок", набор 24
+                                    цвета,
+                                    заточенные, шестигранные, Faber-Castell </h3>
+                                <span class="shopping_cart-item-del"></span>
+                                <button class="shopping_cart-item-favotite" type="button">
+                                    <span class="visually-hidden">В избранное</span>
+                                </button>
+                                <button class="shopping_cart-item-delete" type="button">
+                                    <span class="visually-hidden">Удалить</span>
+                                </button>
+                            </li>
+                        </ul>
+                    </form>
+                </fieldset>
+            </section>
+            <section class="delivery">
+                <h2 class="delivery-title">Способ доставки</h2>
+                <button class="edit-button" type="button">Изменить</button>
+                <ul class="delivery-list">
+                    <li class="delivery-item">
+                        <h3 class="delivery-subtitle">Пункт выдачи</h3>
+                        <address class="delivery-adress">Бишкек, улица Ахматбека Суюмбаева, 12/1</address>
+                        <a class="delivery-adress-rate-link" href="#">
+                            <img class="delivery-adress-rate-icon" src="" alt="">
+                            4,99
+                        </a>
+                        <p class="delivery-adress-time">Ежедневно с 10 до 21 </p>
+                    </li>
+                    <li class="delivery-item">
+                        <h3 class="delivery-subtitle">Стоимость доставки</h3>
+                        <b class="delivery-price">Бесплатно</b>
+                    </li>
+                    <li class="delivery-item">
+                        <h3 class="delivery-subtitle">5—6 февраля</h3>
+                        <a class="delivery-img-link" href="#">
+                            <img class="delivery-img" src="/src/assets/Shirt.png" alt="Фото футболки" width="40"
+                                height="56">
+                        </a>
+                        <a class="delivery-img-link" href="#">
+                            <img class="delivery-img" src="/src/assets/Case.png" alt="Фото чехла" width="40"
+                                height="56">
+                        </a>
+                        <span class="icon-button-counter">184</span>
+                        <a class="delivery-img-link" href="#">
+                            <img class="delivery-img" src="/src/assets/Pencil.png" alt="Фото карандашей" width="40"
+                                height="56">
+                        </a>
+                        <span class="icon-button-counter">2</span>
+                    </li>
+                    <li class="delivery-item">
+                        <h3 class="delivery-subtitle">7—8 февраля</h3>
+                        <a class="delivery-img-link" href="#">
+                            <img class="delivery-img" src="/src/assets/Case.png" alt="Фото чехла" width="40"
+                                height="56">
+                        </a>
+                        <span class="icon-button-counter">16</span>
+                    </li>
+                </ul>
+                <img class="rejection-icon" src="" alt="">
+                <p class="delivery-rejection-description">Обратная доставка товаров на склад при отказе —
+                    <a class="delivery-rejection-link" href="#">бесплатно</a>
+                </p>
+            </section>
+            <section class="payment_method">
+                <h2 class="payment_method-title">Способ оплаты</h2>
+                <button class="edit-button" type="button">Изменить</button>
+                <img class="card-icon" src="" alt="">
+                <span class="payment-data_card">1234 56•• •••• 1234 01/30</span>
+                <p class="payment-description">Спишем оплату с карты при получении</p>
+            </section>
+            <section class="recipient">
+                <h2 class=" ">Получатель</h2>
+                <form class="recipient-form" action="" method="get">
+                    <input type="text" id="recipient-name" name="recipient-name" placeholder="Имя">
+                    <input type="text" id="recipient-surname" name="recipient-surname" placeholder="Фамилия">
+                    <input type="text" id="recipient-email" name="recipient-email" placeholder="Почта">
+                    <input type="text" id="recipient-phone" name="recipient-phone" placeholder="Телефон">
+                    <input type="text" id="recipient-inn" name="recipient-inn" placeholder="ИНН">
+                    <p class="recipient-inn-description">Для таможенного оформления</p>
+                </form>
+            </section>
+        </div>
+        <div class="page-container2">
+            <section class="ordering">
+                <h2 class="ordering-title">Итого</h2>
+                <strong class="ordering-price">2 101 063 </strong>
+                <strong class="ordering-price-currency">сом</strong>
+                <ul class="ordering-list">
+                    <li class="ordering-item">
+                        <span class="ordering-name">203 товара</span>
+                        <b class="ordering-item-price">2 302 048 сом</b>
+                    </li>
+                    <li class="ordering-item">
+                        <span class="ordering-name">Скидка</span>
+                        <b class="ordering-item-price">− 200 985 сом</b>
+                    </li>
+                    <li class="ordering-item">
+                        <span class="ordering-name">Доставка </span>
+                        <b class="ordering-item-price">Бесплатно</b>
+                    </li>
+                </ul>
+                <h3 class="ordering-subtitle">Доставка в пункт выдачи</h3>
+                <button class="ordering-edit-button" type="button">
+                    <span class="visually-hidden">Изменить</span>
+                </button>
+                <address class="ordering-adress">Бишкек, улица Ахматбека Суюмбаева, 12/1</address>
+                <a class="ordering-date-link" href="#">5–8 фев</a>
+                <div class="rejection">
+                    <img class="rejection-icon" src="/src/assets/Accept.svg" alt="">
+                    <p class="delivery-rejection-description">Обратная доставка товаров на склад при отказе —
+                        <a class="delivery-rejection-link" href="#">бесплатно</a>
+                    </p>
+                </div>
+                <h3 class="ordering-subtitle">Оплата картой</h3>
+                <button class="ordering-edit-button" type="button">
+                    <span class="visually-hidden">Изменить</span>
+                </button>
+                <img class="card-icon" src="" alt="">
+                <span class="ordering-data_card">1234 12•• •••• 1234</span>
+                <div class="ordering-payment">
+                    <form class="ordering-form" accept="#" method="get">
+                        <label class="control">
+                            <input class="control-input" type="checkbox" name="uzcotton">
+                            <span class="control-mark">Списать оплату сразу</span>
+                            <span class="control-label">Спишем оплату с карты при получении</span>
+                        </label>
+                    </form>
+                </div>
+                <button class="ordering-button" type="submit">Заказать</button>
+                <form class="agreement-form" action="#" method="get">
+                    <label class="control">
+                        <input class="control-input" type="checkbox" name="uzcotton" checked>
+                        <span class="control-mark"></span>
+                        <span class="control-label">Соглашаюсь с</span>
+                        <a class="agreement-rule-link" href="#">правилами<br>пользования торговой площадкой<br>и
+                            возврата</a>
+                    </label>
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer class="page-footer">
+        <span class="footer-text">© 2022 ООО «Товары и точка»</span>
+    </footer>
+</body>
+
+</html>
